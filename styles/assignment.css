@@ -33,7 +33,6 @@
 /* header */
 .header{
     background-image: url("../Assets/Hero-bg.png");
-
 }
 
 
@@ -50,3 +49,24 @@ nav h3{
     font-weight: bold;
     color: #4E47FF;
 }
+
+/* banner */
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-banner{
+    margin-bottom: 100px;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 65px;
+    color: #252432;
+    text-align: center;
+}
+
+
