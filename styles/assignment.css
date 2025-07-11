@@ -9,10 +9,9 @@
 }
 
 
-.open-sans-button{
+.open-sans-raleway{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: bold;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -25,8 +24,9 @@
     border: none;
     border-radius: 8px;
     color: white;
-    width: 132px;
-    height: 48px;
+    /* width: 132px;
+    height: 48px; */
+    padding: 18px 36px;
 }
 
 
@@ -69,4 +69,27 @@ nav h3{
     text-align: center;
 }
 
+/* Action Styles */
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 140px;
+}
 
+.action-title{
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+    margin-bottom: 5px;
+}
+
+.action-description{
+    font-size: 24px;
+    color: #B3B3B3;
+    text-align: left;
+}
+
+.action-img{
+    border-radius: 40px;
+}
