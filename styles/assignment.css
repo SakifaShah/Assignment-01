@@ -141,7 +141,7 @@ nav h3{
 /* Connect Section */
 
 .connect{
-    padding: 150px 150px;
+    padding: 130px 130px;
     display: flex;
 }
 .connect-title{
@@ -150,7 +150,7 @@ nav h3{
     color: black;
 }
 .connect-column{
-    width: 100%;
+    width: 50%;
 }
 
 .input-text{
@@ -166,15 +166,15 @@ nav h3{
     font-weight: 600;
 }
 
-.connect input[type="text"],  .connect input[type="email"], .connect textarea{
+.connect input[type="email"], .connect input[type="text"]{
     font-size: 16px;
     font-weight: bold;
-    border: 2px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.5);
     color: white;
     height: 64px;
     border-radius: 5px;
     display: block;
-    width: 100%;
+    width: 92%;
     padding: 10px 20px;
     margin-bottom: 20px;
 }
@@ -188,8 +188,9 @@ nav h3{
     height: 64px;
     border-radius: 5px;
     display: block;
-    width: 100%;
+    width: 97%;
     padding: 10px 20px;
+    margin-top: 20px;
 
 }
 
