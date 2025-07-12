@@ -93,3 +93,106 @@ nav h3{
 .action-img{
     border-radius: 40px;
 }
+
+/* Productive Styles */
+
+.productive{
+    border-radius: 10px;
+    text-align: center;
+    padding: 130px 150px;
+    /* margin-top: 130px; */
+}
+
+.inner-border{
+    border: 2px;      
+    background-color: rgba(78, 71, 255, 0.10);
+    padding: 2px 10px;
+    border-radius: 20px;
+}
+.productive-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* section styles */
+.section-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 0px;
+}
+
+.item-title{
+    font-size: 80px;
+    color: #4E47FF;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.item-description{
+    font-size: 20px;
+    color: rgba(0,0,0,0.5);
+}
+
+.productive-margin{
+    margin-bottom: 5px;
+}
+
+/* Connect Section */
+
+.connect{
+    padding: 150px 150px;
+    display: flex;
+}
+.connect-title{
+    font-weight: bold;
+    font-size: 97px;
+    color: black;
+}
+.connect-column{
+    width: 100%;
+}
+
+.input-text{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500px;
+    text-align: left;
+}
+
+.label-text{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+
+.connect input[type="text"],  .connect input[type="email"], .connect textarea{
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid black;
+    color: white;
+    height: 64px;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.btn-connect{
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    height: 64px;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+
+}
+
+
+
+
